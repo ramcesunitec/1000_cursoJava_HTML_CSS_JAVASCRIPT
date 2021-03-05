@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratorio Final</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="b_estilos_LaboratorioFinal.css">
+        <script type="text/javascript" src="b_funciones_LaboratorioFinal.js"></script>
+    </head>
+    <body>
+        <h1>Manejo de Usuarios</h1>
+        <br/>
+        <label>Agregar un usuario (dar enter)</label>
+        <input type="text" name="nombre" onchange="agregarUsuario(this)"/>
+        <br>
+        <div id="listado" class="resultado"></div>
+        <br>
+        <label>Escribe el nombre del usuario para buscar su posición (dar enter)</label>
+        <input type="text" name="nombre" onchange="buscarUsuario(this)"/>
+        <br>
+        <div id="busqueda" class="resultado"></div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body .default{
+    line-height: 1.6 em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    color: #669;
+}
+
+#one-colum-emphasis{
+    margin: 45px;
+    /*Espcificamos el ancho de la tabla*/
+    width: 480px;
+    text-align: left;
+    /*No deja espacio entre los renglones y columnas de la tabla*/
+    border-collapse: collapse;
+}
+
+#one-colum-emphasis caption{
+    font-size: 20px;
+}
+
+#one-colum-emphasis th{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px 15px;
+    color:#039;
+}
+
+#one-colum-emphasis td{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #e8edff;
+}
+
+.oce-first{
+    background: #d0dafd;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#one-colum-emphasis tr:hover td{
+    color: #339;
+    background: #eff2ff;
+}

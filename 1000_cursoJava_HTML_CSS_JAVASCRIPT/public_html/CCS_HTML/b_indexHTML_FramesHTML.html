@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EjercicioFrames</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <!--
+    Frame externo de dos columnas
+    -->
+    <frameset cols="25%,*" frameborder="0" framespacing="0" border="0">
+        <!--Frame izquierda-->
+        <frame src="ba_navegacion_FramesHTML.html" name="navegacion">
+            <!--Frame izquierda, es otro frameset, tiene dos renglones este frame-->
+            <frameset rows="30%,*">
+                <!--Frame superior-->
+                <frame src="bb_titulo_FramesHTML.html" name="titulo" scrolling="no">
+                <!--Frame inferior-->
+                <frame src="bc_contenidoInicial_FramesHTML.html" name="contenidoInicial">
+            </frameset>
+            <nofremes>
+                Esta es una pagina que no pudo mostrar los frames
+            </nofremes>
+    </frameset> 
+</html>
